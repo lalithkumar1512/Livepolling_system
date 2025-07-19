@@ -1,0 +1,17 @@
+{
+  "name": "live-polling-system",
+  "version": "1.0.0",
+  "description": "Live Polling System with React frontend and Vercel serverless functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run preview"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "keywords": ["polling", "react", "vercel", "real-time"],
+  "author": "",
+  "license": "MIT"
+} 
