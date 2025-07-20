@@ -20,7 +20,7 @@ const port = process.env.PORT || 3000;
 const DB =
   process.env.NODE_ENV === "production"
     ? process.env.MONGODB_URL
-    : "mongodb://localhost:27017/intevuePoll";
+    : "mongodb+srv://22bds024:0ccB6c6qeWmMXs90@cluster0.cjcdwkq.mongodb.net/";
 
 mongoose
   .connect(DB)
