@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const MONGODB_URI = process.env.MONGODB_URL || 'mongodb://localhost:27017/intevuePoll';
+const MONGODB_URI = process.env.MONGODB_URL || 'mongodb+srv://22bds024:0ccB6c6qeWmMXs90@cluster0.cjcdwkq.mongodb.net';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
